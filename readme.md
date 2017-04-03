@@ -2,6 +2,8 @@
 
 > Access the system clipboard (copy/paste) - cross-platform
 
+Supports: macOS, Windows, Linux, OpenBSD, FreeBSD, Android with [Termux](https://termux.com/).
+
 
 ## Install
 
