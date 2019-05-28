@@ -1,52 +1,49 @@
 {
-  "name": "clipboard-cli",
-  "version": "1.1.0",
-  "description": "Access the system clipboard (copy/paste)",
-  "license": "MIT",
-  "repository": "sindresorhus/clipboard-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "clipboard": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "clipboard",
-    "copy",
-    "paste",
-    "copy-paste",
-    "pasteboard",
-    "read",
-    "write",
-    "pbcopy",
-    "clip",
-    "xclip",
-    "xsel"
-  ],
-  "dependencies": {
-    "clipboardy": "^1.0.0",
-    "get-stdin": "^5.0.1",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.1",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "clipboard-cli",
+	"version": "1.1.0",
+	"description": "Access the system clipboard (copy/paste)",
+	"license": "MIT",
+	"repository": "sindresorhus/clipboard-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"clipboard": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"clipboard",
+		"copy",
+		"paste",
+		"copy-paste",
+		"pasteboard",
+		"read",
+		"write",
+		"pbcopy",
+		"clip",
+		"xclip",
+		"xsel"
+	],
+	"dependencies": {
+		"clipboardy": "^2.0.0",
+		"get-stdin": "^7.0.0",
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
+	}
 }

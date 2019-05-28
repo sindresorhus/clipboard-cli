@@ -2,7 +2,7 @@
 
 > Access the system clipboard (copy/paste) - cross-platform
 
-Supports: macOS, Windows, Linux, OpenBSD, FreeBSD, Android with [Termux](https://termux.com/).
+Supports: macOS, Windows, Linux, OpenBSD, FreeBSD, Android with [Termux](https://termux.com).
 
 
 ## Install
@@ -32,8 +32,3 @@ Run it with `$ cb` instead by adding `alias cb=clipboard` to your `.zshrc`/`.bas
 ## Related
 
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
