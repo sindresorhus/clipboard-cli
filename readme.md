@@ -1,4 +1,4 @@
-# clipboard-cli [![Build Status](https://travis-ci.org/sindresorhus/clipboard-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/clipboard-cli)
+# clipboard-cli
 
 > Access the system clipboard (copy/paste) - cross-platform
 
