@@ -12,7 +12,7 @@ meow(`
 `);
 
 if (process.stdin.isTTY || process.env.STDIN === '0') {
-	console.log(clipboardy.readSync());
+	process.stdout.write(clipboardy.readSync());
 } else {
 	(async () => {
 		clipboardy.writeSync(await getStdin());
