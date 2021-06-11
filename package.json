@@ -38,7 +38,7 @@
 	],
 	"dependencies": {
 		"clipboardy": "^2.0.0",
-		"get-stdin": "^7.0.0",
+		"stdin2": "^1.0.0",
 		"meow": "^5.0.0"
 	},
 	"devDependencies": {
