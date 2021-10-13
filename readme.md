@@ -4,13 +4,11 @@
 
 Supports: macOS, Windows, Linux, OpenBSD, FreeBSD, Android with [Termux](https://termux.com).
 
-
 ## Install
 
+```sh
+npm install --global clipboard-cli
 ```
-$ npm install --global clipboard-cli
-```
-
 
 ## Usage
 
@@ -23,11 +21,9 @@ $ clipboard --help
     🦄
 ```
 
-
 ## Tip
 
 Run it with `$ cb` instead by adding `alias cb=clipboard` to your `.zshrc`/`.bashrc`.
-
 
 ## Related
 

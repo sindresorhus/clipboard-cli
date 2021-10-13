@@ -5,10 +5,11 @@ test('main', async t => {
 	const input = '🦄';
 	await execa('./cli.js', {input});
 
-	t.is(await execa.stdout('./cli.js', {
+	const {stdout} = await execa('./cli.js', {
 		env: {
-			...process.env,
-			STDIN: 0
-		}
-	}), input);
+			STDIN: 0,
+		},
+	});
+
+	t.is(stdout, input);
 });

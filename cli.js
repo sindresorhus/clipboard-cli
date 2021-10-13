@@ -1,15 +1,17 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const getStdin = require('get-stdin');
-const clipboardy = require('clipboardy');
+import process from 'node:process';
+import meow from 'meow';
+import getStdin from 'get-stdin';
+import clipboardy from 'clipboardy';
 
 meow(`
 	Example
 	  $ echo 🦄 | clipboard
 	  $ clipboard
 	  🦄
-`);
+`, {
+	importMeta: import.meta,
+});
 
 if (process.stdin.isTTY || process.env.STDIN === '0') {
 	process.stdout.write(clipboardy.readSync());
