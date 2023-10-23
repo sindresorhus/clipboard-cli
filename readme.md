@@ -13,12 +13,12 @@ npm install --global clipboard-cli
 ## Usage
 
 ```
-$ clipboard --help
+clipboard --help
 
-  Example
-    $ echo 🦄 | clipboard
-    $ clipboard
-    🦄
+Example
+  $ echo 🦄 | clipboard
+  $ clipboard
+  🦄
 ```
 
 ## Tip

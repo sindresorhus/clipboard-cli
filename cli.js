@@ -16,7 +16,5 @@ meow(`
 if (process.stdin.isTTY || process.env.STDIN === '0') {
 	process.stdout.write(clipboardy.readSync());
 } else {
-	(async () => {
-		clipboardy.writeSync(await getStdin());
-	})();
+	clipboardy.writeSync(await getStdin());
 }
