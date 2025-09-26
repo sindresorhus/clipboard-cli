@@ -27,4 +27,4 @@ Run it with `$ cb` instead by adding `alias cb=clipboard` to your `.zshrc`/`.bas
 
 ## Related
 
-- [clipboardy](https://github.com/sindresorhus/clipboardy) - API for this module
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - API for this package
